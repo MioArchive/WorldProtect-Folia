@@ -5,13 +5,13 @@ import net.vertrauterdavid.worldprotect.listener.*;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 @Getter
 public class WorldProtect extends JavaPlugin {
 
-    private final List<String> protectedWorlds = new ArrayList<>();
+    private final List<String> protectedWorlds = new CopyOnWriteArrayList<>();
 
     @Override
     public void onEnable() {

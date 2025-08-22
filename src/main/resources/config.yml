@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------
 #
-#         Developed by VertrauterDavid
+#         Developed by VertrauterDavid & JavaMio
 #
 #         https://vertrauterdavid.net/
 #         https://github.com/VertrauterDavid/
@@ -27,7 +27,7 @@ EntityInteract:
   Whitelisted: # entity names with which can interacted
     - 'PLAYER'
 
-BlockInteract:
+BlockInteract: # all types can be found here - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
   Disabled: true
   Whitelisted:
     - 'ENDER_CHEST'
